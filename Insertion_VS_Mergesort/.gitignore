@@ -1,0 +1,4 @@
+# Just a file to ignore stuff
+
+.vscode/
+__pycache__

@@ -1,0 +1,19 @@
+hybridsort(arr) 
+{
+   split arr into two evenly sized arrs, leftarr & rightarr
+   hybridsort(leftarr);
+   hybridsort(rightarr);
+   hybridMerge(leftarr, rightarr);
+}
+hybridMerge(leftarr, rightarr)
+{
+   if(arr.length <= S)
+   {
+      InsertionSort(arr)
+   }
+   else
+   {
+      merge(arr, left, right) // from Mergesort
+   }
+}
+
